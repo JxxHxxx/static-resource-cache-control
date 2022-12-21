@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="">
+
+</head>
+<body>
+    <nav>
+        <div>
+            <p>cache 설정 - 10초 mustRevalidate</p>
+            <img alt="logo" th:src="@{images/star.jpg}" />
+        </div>
+        <div>
+            <p>cache 설정 - 20초 </p>
+            <img alt="logo" th:src="@{images/hang.png}" />
+        </div>
+        <div>
+            <p>기본 설정 - noCache 와 동일?!</p>
+            <img alt="logo" th:src="@{pet/puppy.jpg}" />
+        </div>
+    </nav>
+<script type="text/javascript" th:src="@{js/test.js}"></script>
+</body>
+
+</html>
